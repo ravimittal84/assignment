@@ -12,10 +12,10 @@ namespace KPMGAssignment
     {
         private readonly AppDbContext context;
 
-        public Repository()
-        {
-            context = new AppDbContext();
-        }
+        //public Repository()
+        //{
+        //    context = new AppDbContext();
+        //}
 
         public Repository(AppDbContext ctx)
         {

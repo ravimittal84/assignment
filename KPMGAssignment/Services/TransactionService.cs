@@ -15,10 +15,10 @@ namespace KPMGAssignment.Services
     {
         private IRepository _repository;
 
-        public TransactionService()
-        {
-            _repository = new Repository();
-        }
+        //public TransactionService()
+        //{
+        //    _repository = new Repository();
+        //}
 
         public TransactionService(IRepository repo)
         {

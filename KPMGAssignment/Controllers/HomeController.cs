@@ -11,10 +11,10 @@ namespace KPMGAssignment.Controllers
     {
         private ITransactionService _transactionService;
 
-        public HomeController()
-        {
-            _transactionService = new TransactionService();
-        }
+        //public HomeController()
+        //{
+        //    _transactionService = new TransactionService();
+        //}
 
         public HomeController(ITransactionService svc)
         {
